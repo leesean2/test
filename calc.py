@@ -1,3 +1,8 @@
 def add(a,b):
     return a+b
-print(1,4)
+def subtract(a,b):
+    return a-b
+
+
+print(add(1,4))
+print(subtract(5,2))
