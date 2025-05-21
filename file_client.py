@@ -2,7 +2,7 @@
 
 import socket
 
-HOST, PORT = '127.0.0.1', 9999
+HOST, PORT = '127.0.0.1', 12344
 
 def main():
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as cli:
